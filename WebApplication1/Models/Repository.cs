@@ -5,7 +5,7 @@ using  System.Collections.Generic;
 
 namespace WebApplication1.Models{
     public static class Repository{
-        private List<Announcement> list1=new();
+        private static List<Announcement> list1=new();
         static Repository(){
             list1.Add(new Announcement()  {
                 ID = 1,
@@ -48,7 +48,7 @@ namespace WebApplication1.Models{
 
 
         }
-        public static List<Announcement> annlist{get{return list;}}
+        public static List<Announcement> annlist{get{return list1;}}
         
 
     

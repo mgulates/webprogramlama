@@ -8,25 +8,24 @@
 <table>
         <thead>
             <tr>
-                <th>ID</th>
+                <th> </th>
                 <th>Başlık</th>
-                <th>Metin</th>
-                <th>Sorumlu Kişi</th>
+                
+                
             </tr>
         </thead>
         <tbody>
-            <tr>
+            @foreach(Announcement in Model){
+                <tr>
                 <td>1</td>
                 <td>Duyuru Başlığı 1</td>
                 <td>Bu bir duyuru metnidir.</td>
                 <td>Ali Veli</td>
             </tr>
-            <tr>
-                <td>2</td>
-                <td>Duyuru Başlığı 2</td>
-                <td>Bu başka bir duyuru metnidir.</td>
-                <td>Ayşe Yılmaz</td>
-            </tr>
+
+            }
+            
+            
             <!-- Daha fazla duyuru ekleyebilirsiniz -->
         </tbody>
     </table>
