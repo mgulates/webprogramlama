@@ -1,0 +1,30 @@
+@model Announcement
+<h1>Duyuru Ekle</h1>
+
+<form action="Ann/NewAnn" method="post">
+    <div>
+        <label asp-for="Title">Başlık:</label>
+        <input asp-for="Title" type="text" id="Title" name="model.Title" value="@Model.Title" required />
+    </div>
+    
+    <div>
+        <label asp-for="Text">Metin:</label>
+        <textarea asp-for= "Text"id="Text" name="model.Text" required>@Model.Text</textarea>
+    </div>
+    
+    <div>
+        <label asp-for="ResponsiblePerson">Sorumlu Kişi:</label>
+        <input asp-for="ResponsiblePerson"type="text" id="ResponsiblePerson" name="model.ResponsiblePerson" value="@Model.ResponsiblePerson" required />
+    </div>
+    
+    <div>
+        <label asp- for="Date">Tarih:</label>
+        <input asp-for ="Date"type="datetime-local" id="Date" name="model.Date" value="@Model.Date.ToString("yyyy-MM-ddTHH:mm")" required />
+    </div>
+
+    <div>
+        <button type="submit">Duyuru Ekle</button>
+    </div>
+</form>
+
+

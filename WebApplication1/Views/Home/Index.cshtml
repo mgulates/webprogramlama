@@ -17,8 +17,9 @@
         <tbody>
             @foreach(Announcement a in Model){
                 <tr>
-                <td>@a.Title</td>
                 <td>@a.date</td>
+                <td>@a.Title</td>
+              
             </tr>
 
             }
@@ -27,3 +28,4 @@
             <!-- Daha fazla duyuru ekleyebilirsiniz -->
         </tbody>
     </table>
+@Html.ActionLink("Yeni duyuru ekle","NewAnn","Ann")

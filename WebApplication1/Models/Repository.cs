@@ -57,7 +57,9 @@ namespace WebApplication1.Models{
         public static List<Announcement> annlist{get{return list1;}}
         
 
-    
+        public static void AddAnnouncement(Announcement announcement){
+            list1.Add(announcement);
+        }
 
     }
 }
