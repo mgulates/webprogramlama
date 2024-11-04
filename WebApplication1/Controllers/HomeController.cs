@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-
+using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller{
-        public String Index(){
-            return "merhba mert";
+        public IActionResult Index(){
+            return View(Models.annlist);
         }
     }
 }

@@ -24,3 +24,5 @@
 /Users/mervegulates/webprogramlama/WebApplication1/obj/Debug/net8.0/WebApplication1.pdb
 /Users/mervegulates/webprogramlama/WebApplication1/obj/Debug/net8.0/WebApplication1.genruntimeconfig.cache
 /Users/mervegulates/webprogramlama/WebApplication1/obj/Debug/net8.0/ref/WebApplication1.dll
+/Users/mervegulates/webprogramlama/WebApplication1/obj/Debug/net8.0/WebApplication1.RazorAssemblyInfo.cache
+/Users/mervegulates/webprogramlama/WebApplication1/obj/Debug/net8.0/WebApplication1.RazorAssemblyInfo.cs
