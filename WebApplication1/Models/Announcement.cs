@@ -1,4 +1,3 @@
-using System;
 namespace WebApplication1.Models{
     public class Announcement{
         public int ID{get;set;}

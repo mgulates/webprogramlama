@@ -8,8 +8,9 @@ namespace WebApplication1.Controllers{
         }
         [HttpPost]
         public ActionResult NewAnn(Announcement newann){
-            Repository.AddAnnouncement(newann);
-            return View("ok")
+		    Repository.AddAnnouncement(newann);
+
+			return View("ok");
 
 
         }

@@ -1,25 +1,28 @@
+@using WebApplication1.Models
 @model Announcement
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, MeetingApp
 <h1>Duyuru Ekle</h1>
 
-<form action="Ann/NewAnn" method="post">
+<form action="/Ann/NewAnn" method="post">
     <div>
         <label asp-for="Title">Başlık:</label>
-        <input asp-for="Title" type="text" id="Title" name="model.Title" value="@Model.Title" required />
+        <input asp-for="Title" type="text"   required />
     </div>
     
     <div>
         <label asp-for="Text">Metin:</label>
-        <textarea asp-for= "Text"id="Text" name="model.Text" required>@Model.Text</textarea>
+        <textarea asp-for= "Text" required></textarea>
     </div>
     
     <div>
         <label asp-for="ResponsiblePerson">Sorumlu Kişi:</label>
-        <input asp-for="ResponsiblePerson"type="text" id="ResponsiblePerson" name="model.ResponsiblePerson" value="@Model.ResponsiblePerson" required />
+        <input asp-for="ResponsiblePerson"type="text"    required />
     </div>
     
     <div>
-        <label asp- for="Date">Tarih:</label>
-        <input asp-for ="Date"type="datetime-local" id="Date" name="model.Date" value="@Model.Date.ToString("yyyy-MM-ddTHH:mm")" required />
+        <label asp- for="date">Tarih:</label>
+        <input asp-for ="date"type="datetime-local"   required />
     </div>
 
     <div>
