@@ -15,12 +15,10 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(Announcement in Model){
+            @foreach(Announcement a in Model){
                 <tr>
-                <td>1</td>
-                <td>Duyuru Başlığı 1</td>
-                <td>Bu bir duyuru metnidir.</td>
-                <td>Ali Veli</td>
+                <td>@a.Title</td>
+                <td>@a.date</td>
             </tr>
 
             }

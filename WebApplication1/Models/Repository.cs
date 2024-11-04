@@ -11,35 +11,41 @@ namespace WebApplication1.Models{
                 ID = 1,
                 Title = "Duyuru Başlığı",
                 Text = "Bu bir duyuru metnidir.",
-                ResponsiblePerson = "Ali Veli"
+                ResponsiblePerson = "Ali Veli",
+                date = DateTime.Now
+
             }
             );
               list1.Add(new Announcement()  {
                 ID = 1,
                 Title = "Duyuru Başlığı",
                 Text = "Bu bir duyuru metnidir.",
-                ResponsiblePerson = "Ali Veli"
+                ResponsiblePerson = "Ali Veli",
+                date = DateTime.Now
             }
             );
               list1.Add(new Announcement()  {
                 ID = 1,
                 Title = "Duyuru Başlığı",
                 Text = "Bu bir duyuru metnidir.",
-                ResponsiblePerson = "Ali Veli"
+                ResponsiblePerson = "Ali Veli",
+                date = DateTime.Now
             }
             );
               list1.Add(new Announcement()  {
                 ID = 1,
                 Title = "Duyuru Başlığı",
                 Text = "Bu bir duyuru metnidir.",
-                ResponsiblePerson = "Ali Veli"
+                ResponsiblePerson = "Ali Veli",
+                date = DateTime.Now
             }
             );
               list1.Add(new Announcement()  {
                 ID = 1,
                 Title = "Duyuru Başlığı",
                 Text = "Bu bir duyuru metnidir.",
-                ResponsiblePerson = "Ali Veli"
+                ResponsiblePerson = "Ali Veli",
+                date = DateTime.Now
             }
             );
 
