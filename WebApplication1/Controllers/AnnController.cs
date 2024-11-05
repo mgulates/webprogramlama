@@ -9,12 +9,20 @@ namespace WebApplication1.Controllers{
         [HttpPost]
         public ActionResult NewAnn(Announcement newann){
 		    Repository.AddAnnouncement(newann);
+            
 
 			return View("ok");
 
 
         }
+        public ActionResult List(){
+            return View(Repository.annlist);
+        }
         
+        public IActionResult Details(int id){
+            return View(Repository.GetElement(id));
+        }
     }
+
 
 }

@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mervegulates/webprogramlama/WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mervegulates/webprogramlama/WebApplication1/Views/Ann/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5uL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mervegulates/webprogramlama/WebApplication1/Views/Ann/list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5uL2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mervegulates/webprogramlama/WebApplication1/Views/Ann/NewAnn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5uL05ld0Fubi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,4 +36,12 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/mervegulates/webprogramlama/WebApplication1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mervegulates/webprogramlama/WebApplication1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mervegulates/webprogramlama/WebApplication1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -4,30 +4,27 @@
 @addTagHelper *, MeetingApp
 <h1>Duyuru Ekle</h1>
 
-<form action="/Ann/NewAnn" method="post">
-    <div>
-        <label asp-for="Title">Başlık:</label>
-        <input asp-for="Title" type="text"   required />
-    </div>
-    
-    <div>
-        <label asp-for="Text">Metin:</label>
-        <textarea asp-for= "Text" required></textarea>
-    </div>
-    
-    <div>
-        <label asp-for="ResponsiblePerson">Sorumlu Kişi:</label>
-        <input asp-for="ResponsiblePerson"type="text"    required />
-    </div>
-    
-    <div>
-        <label asp- for="date">Tarih:</label>
-        <input asp-for ="date"type="datetime-local"   required />
-    </div>
-
-    <div>
-        <button type="submit">Duyuru Ekle</button>
-    </div>
-</form>
+<div class="container my-4">
+    <form action="/Ann/NewAnn"method="post">
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Title:</label>
+            <input asp-for="Title" type="text" class="form-control" required />
+        </div>
+        
+        <div class="mb-3">
+            <label asp-for="Text" class="form-label">Text:</label>
+            <textarea asp-for="Text" class="form-control" rows="4" required></textarea>
+        </div>
+        
+        <div class="mb-3">
+            <label asp-for="ResponsiblePerson" class="form-label">Responsible Person:</label>
+            <input asp-for="ResponsiblePerson" type="text" class="form-control" required />
+        </div>
+        
+        <div class="text-end">
+            <button type="submit" class="btn btn-primary">Add Announcement</button>
+        </div>
+    </form>
+</div>
 
 

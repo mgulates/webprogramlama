@@ -1,31 +1,5 @@
-@using WebApplication1.Models
-@model List<Announcement>
+<h1> Welcome</h1>
 
+<h2>@DateTime.Now</h2>
 
-
-
-<h1>DUYURULAR</h1>
-<table>
-        <thead>
-            <tr>
-                <th> </th>
-                <th>Başlık</th>
-                
-                
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(Announcement a in Model){
-                <tr>
-                <td>@a.date</td>
-                <td>@a.Title</td>
-              
-            </tr>
-
-            }
-            
-            
-            <!-- Daha fazla duyuru ekleyebilirsiniz -->
-        </tbody>
-    </table>
-@Html.ActionLink("Yeni duyuru ekle","NewAnn","Ann")
+<h3>number of announcements(@ViewBag.AnnCount)</h3>
